@@ -1,0 +1,219 @@
+{
+ "_설명": "합성 예시입니다. 앱 이름과 주소는 모두 가짜이며 판정의 모든 갈래를 보여 주려고 만들었습니다.",
+ "apps": [
+  {
+   "name": "가나메일",
+   "data": "고객과 주고받는 메일",
+   "api": {
+    "status": "yes",
+    "reads_my_data": "yes",
+    "url": "https://docs.example.com/ganamail/api",
+    "condition": "무료 계정 가능"
+   },
+   "mcp": {
+    "status": "yes",
+    "official": "yes",
+    "url": "https://docs.example.com/ganamail/mcp"
+   },
+   "major_platform": {
+    "status": "unknown",
+    "reason": ""
+   },
+   "local": {
+    "status": "unknown",
+    "method": "",
+    "url": ""
+   },
+   "alternatives": [],
+   "checked_on": "2026-01-15"
+  },
+  {
+   "name": "다라메신저",
+   "data": "팀 대화",
+   "api": {
+    "status": "no",
+    "reads_my_data": "unknown",
+    "url": "",
+    "condition": ""
+   },
+   "mcp": {
+    "status": "yes",
+    "official": "no",
+    "url": "https://github.com/example/dara-mcp"
+   },
+   "major_platform": {
+    "status": "unknown",
+    "reason": ""
+   },
+   "local": {
+    "status": "unknown",
+    "method": "",
+    "url": ""
+   },
+   "alternatives": [],
+   "checked_on": "2026-01-15"
+  },
+  {
+   "name": "국민톡",
+   "data": "고객·거래처와의 대화",
+   "api": {
+    "status": "yes",
+    "reads_my_data": "no",
+    "url": "https://docs.example.com/ktalk/message-api",
+    "condition": "보내기 전용"
+   },
+   "mcp": {
+    "status": "no",
+    "official": "no",
+    "url": ""
+   },
+   "major_platform": {
+    "status": "yes",
+    "reason": "고객 대부분이 이 앱으로 연락"
+   },
+   "local": {
+    "status": "yes",
+    "method": "데스크톱 앱의 대화 내보내기를 하루 한 번 실행한 뒤 LLM 으로 정리",
+    "url": ""
+   },
+   "alternatives": [],
+   "checked_on": "2026-01-15"
+  },
+  {
+   "name": "통화 녹음",
+   "data": "고객 통화",
+   "api": {
+    "status": "no",
+    "reads_my_data": "no",
+    "url": "",
+    "condition": ""
+   },
+   "mcp": {
+    "status": "no",
+    "official": "no",
+    "url": ""
+   },
+   "major_platform": {
+    "status": "no",
+    "reason": "녹음 앱은 바꿀 수 있음"
+   },
+   "local": {
+    "status": "yes",
+    "method": "녹음 파일을 폴더 동기화로 PC 에 모아 로컬 받아쓰기 → LLM 으로 화자 분리·정리",
+    "url": ""
+   },
+   "alternatives": [],
+   "checked_on": "2026-01-15"
+  },
+  {
+   "name": "마바노트",
+   "data": "회의 녹음과 회의록",
+   "api": {
+    "status": "no",
+    "reads_my_data": "no",
+    "url": "",
+    "condition": ""
+   },
+   "mcp": {
+    "status": "no",
+    "official": "no",
+    "url": ""
+   },
+   "major_platform": {
+    "status": "no",
+    "reason": "혼자 쓰는 앱"
+   },
+   "local": {
+    "status": "no",
+    "method": "",
+    "url": ""
+   },
+   "alternatives": [
+    {
+     "name": "사아노트",
+     "why": "API 와 MCP 를 제공하는 회의록 서비스",
+     "url": "https://docs.example.com/saanote/api"
+    }
+   ],
+   "checked_on": "2026-01-15"
+  },
+  {
+   "name": "자차포털",
+   "data": "기관 제출·조회",
+   "api": {
+    "status": "no",
+    "reads_my_data": "no",
+    "url": "",
+    "condition": ""
+   },
+   "mcp": {
+    "status": "no",
+    "official": "no",
+    "url": ""
+   },
+   "major_platform": {
+    "status": "yes",
+    "reason": "기관이 지정한 유일한 창구"
+   },
+   "local": {
+    "status": "no",
+    "method": "",
+    "url": ""
+   },
+   "alternatives": [],
+   "checked_on": "2026-01-15"
+  },
+  {
+   "name": "카타장부",
+   "data": "전표·장부",
+   "api": {
+    "status": "yes",
+    "reads_my_data": "unknown",
+    "url": "",
+    "condition": ""
+   },
+   "mcp": {
+    "status": "unknown",
+    "official": "unknown",
+    "url": ""
+   },
+   "major_platform": {
+    "status": "unknown",
+    "reason": ""
+   },
+   "local": {
+    "status": "unknown",
+    "method": "",
+    "url": ""
+   },
+   "alternatives": [],
+   "checked_on": "2026-01-15"
+  },
+  {
+   "name": "파하일정",
+   "data": "일정",
+   "api": {
+    "status": "yes",
+    "reads_my_data": "yes",
+    "url": "공식 문서에 있음",
+    "condition": ""
+   },
+   "mcp": {
+    "status": "no",
+    "official": "no",
+    "url": ""
+   },
+   "major_platform": {
+    "status": "unknown",
+    "reason": ""
+   },
+   "local": {
+    "status": "unknown",
+    "method": "",
+    "url": ""
+   },
+   "alternatives": [],
+   "checked_on": ""
+  }
+ ]
+}
